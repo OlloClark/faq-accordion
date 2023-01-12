@@ -18,8 +18,11 @@ html, .body {
 	display: flex;
 	border-radius: 25px;
 	margin: 10em;
-	padding: 4em;
+}
 
+#tileRight {
+	display: flex;
+	flex-direction: row;
 }
 
 #form {
@@ -28,6 +31,7 @@ html, .body {
 	margin: 3em;
 	border-radius: 25px;
 	align-items: left;
+	padding-left: 5em;
 }
 
 
@@ -35,14 +39,17 @@ html, .body {
 	cursor: pointer;
 	background-color: rgba(0,0,0,0);
 	border: none;
+	padding: 1em;
+	text-align: left;
+	border-bottom: grey 1px solid;
 }
 
 .accordion:hover {
 	font-weight: bold;
+	color: orange;
 }
 
 .active {
-	color: orange;
 	font-weight: bold;
 }
 
