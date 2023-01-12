@@ -1,6 +1,6 @@
-let accordion = document.getElementsByClassName("accordion");
 
 function openAccordion() {
+	const accordion = document.getElementsByClassName("accordion")
 	for (i = 0; i < accordion.length; i++) {
 		accordion[i].addEventListener("click", function() {
 	  
