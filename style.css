@@ -13,6 +13,8 @@ html, .body {
 .tile {
 	background-color: white;
 	background-image: url(./images/bg-pattern-desktop.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
 	display: flex;
 	border-radius: 25px;
 	margin: 10em;
