@@ -1,6 +1,6 @@
-* {
+/* * {
 	border: red 1px solid;
-}
+} */
 
 html, .body {
 	background-image: linear-gradient(#6563D6, #AB6AD8);
@@ -31,10 +31,15 @@ html, .body {
 .accordion {
 	cursor: pointer;
 	background-color: rgba(0,0,0,0);
-	/* border: none; */
+	border: none;
 }
 
 .accordion:hover {
+	font-weight: bold;
+}
+
+.active {
+	color: orange;
 	font-weight: bold;
 }
 
