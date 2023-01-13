@@ -7,8 +7,10 @@ function openAccordion() {
 		  let dropdown = this.nextElementSibling;
 		  if (dropdown.style.display === "block") {
 			dropdown.style.display = "none";
+			this.style.borderBottom = "hsl(240, 5%, 91%) 1px solid";
 		  } else {
 			dropdown.style.display = "block";
+			this.style.borderBottom = "none";
 		  }
 		});
 	  }
