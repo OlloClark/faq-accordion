@@ -53,6 +53,10 @@ html, .body {
 	border-bottom: hsl(240, 5%, 91%) 1px solid;
 	color: hsl(237, 12%, 33%);
 	padding-left: 0em;
+	align-items: center;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
 }
 
 .accordion:hover {
@@ -68,6 +72,9 @@ html, .body {
 	display: none;
 	background-color: rgba(0,0,0,0);
 	color: hsl(240, 6%, 50%);
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
 }
 
 .arrow {
@@ -76,6 +83,12 @@ html, .body {
 
 .arrowActive {
 	transform: rotate(180deg);
+
+}
+
+#FAQ {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
 }
 
 
