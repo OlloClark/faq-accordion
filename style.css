@@ -24,6 +24,7 @@ html, .body {
 	margin-right: 20em;
 	width: 60em;
 	padding: 3em;
+	overflow: hidden;
 
 }
 
@@ -89,6 +90,11 @@ html, .body {
 #FAQ {
 	font-family: 'Kumbh Sans', sans-serif;
 	font-weight: 700;
+}
+
+#graphicLarge {
+	position: relative;
+	left: -85px;
 }
 
 
