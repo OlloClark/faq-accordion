@@ -12,6 +12,10 @@ html, .body {
 	color: hsl(238, 29%, 16%);
 }
 
+.wrapper {
+	transform: scale(1);
+}
+
 .tile {
 	background-color: white;
 	background-image: url(./images/bg-pattern-desktop.svg);
@@ -26,6 +30,7 @@ html, .body {
 	padding: 2em;
 	padding-top: 1em;
 	overflow: hidden;
+	position: relative;
 
 }
 
@@ -37,8 +42,8 @@ html, .body {
 }
 
 #tileLeft {
+	position: relative;
 	padding-top: 3em;
-
 	
 }
 
@@ -107,7 +112,15 @@ html, .body {
 
 #graphicLarge {
 	position: relative;
-	left: -85px;
+	left: -115px;
+}
+
+#graphicSmall {
+	position: absolute;
+	z-index: 1;
+	position: fixed;
+	left: 225px;
+	top: 355px;
 }
 
 
