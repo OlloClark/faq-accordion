@@ -142,6 +142,7 @@ html, .body {
 		align-items: center;
 		text-align: center;
 		margin: 1em;
+		margin-top: 8em;
 		padding: 0.2em;
 		overflow: visible;
 	}
@@ -176,7 +177,11 @@ html, .body {
 	}
 
 	#graphicLarge {
-		width: 180px;
+		position: absolute;
+		width: 160px;
+		top: -75px;
+		left: -85px;
+
 	}
 
 	#graphicSmall  {
