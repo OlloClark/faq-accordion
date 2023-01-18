@@ -185,7 +185,9 @@ html, .body {
 	}
 
 	#graphicSmall  {
-		display: none;
+		width: 60px;
+		left: 48px;
+		top: 105px;
 	}
 	
 }
