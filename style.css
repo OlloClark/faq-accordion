@@ -127,4 +127,61 @@ html, .body {
 	top: 355px;
 }
 
+@media (max-width: 414px) {
+	.wrapper {
+		align-items: center;
+		text-align: center;
+	}
+
+	.tile {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 230px;
+		height: 500px;
+		align-items: center;
+		text-align: center;
+		margin: 1em;
+		padding: 0.2em;
+	}
+
+	#tileRight {
+		flex-direction: column;
+		padding: 0;
+		margin: 0;
+		width: 230px;
+	}
+
+	#tileLeft {
+		flex-direction: column;
+		
+	}
+
+	#form {
+		width: 230px;
+		align-items: center;
+		padding: 0;
+		margin: 0px;
+	}
+
+	.accordion {
+		width: 190px;
+		font-size: 8px;
+	}
+
+	.dropdown {
+		width: 160px;
+		font-size: 8px;
+	}
+
+	#graphicLarge {
+		display: none;
+	}
+
+	#graphicSmall  {
+		display: none;
+	}
+	
+}
+
 
