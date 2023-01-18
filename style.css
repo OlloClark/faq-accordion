@@ -143,6 +143,7 @@ html, .body {
 		text-align: center;
 		margin: 1em;
 		padding: 0.2em;
+		overflow: visible;
 	}
 
 	#tileRight {
@@ -175,7 +176,7 @@ html, .body {
 	}
 
 	#graphicLarge {
-		display: none;
+		width: 180px;
 	}
 
 	#graphicSmall  {
