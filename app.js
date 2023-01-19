@@ -20,14 +20,3 @@ function openAccordion() {
 }
 
 openAccordion()
-
-// function checkArrow() {
-// 	const arrow = document.getElementsByClassName("arrow");
-// 	for (i = 0; i < arrow.length; i++) {
-// 		arrow[i].addEventListener("click", function() {
-// 			console.log("clicked")
-// 	})
-
-// 	}}
-
-// 	checkArrow()
