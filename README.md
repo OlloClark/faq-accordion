@@ -10,7 +10,7 @@ This was a fun step up, in terms of integrating more JS and flexing (as well as 
 
 ### New Discoveries
 
-I completed the whole thing before a kind soul pointed me in the direction of the <details> element. While there was a small facepalm moment, I'm glad to have built an elegant solution myself. Who wants to always take the easy, cheap route?
+I completed the whole thing before a kind soul pointed me in the direction of the &lt;details&gt; element. While there was a small facepalm moment, I'm glad to have built an elegant solution myself. Who wants to always take the easy, cheap route?
 
 Employers do. And that's why I'll be using <details> in the future.
 
