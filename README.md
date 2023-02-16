@@ -2,7 +2,7 @@
 
 ## A drop-down FAQ component challenge from www.frontendmentor.com
 
-This responsive credit card information component was designed according to UX specs on www.frontendmentor.com.
+This FAQ component was designed according to UX specs on www.frontendmentor.com.
 
 This was a fun step up, in terms of integrating more JS and flexing (as well as flexboxing) some more interactive CSS. Overflow was not something I'd ever explored before, and is something I wish I'd understood before. No more box-y design for me.
 
