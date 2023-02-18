@@ -11,7 +11,7 @@ function openAccordion() {
 //Welcome, Airbnb Team! 
 // I was particulary pleased to develop the dropdown functionality here. I have since been shown the
 // <details> element, but I feel like my solution has more opportunity for customization, as beyond
-// the toggling of visibility, I was able to animate the arrows, and could quickly adjust the
+// the toggling of visibility, I was able to animate the arrows, and could quickly adjust further
 // styling for any client.
 		  if (dropdown.style.display === "block") {
 			dropdown.style.display = "none";
